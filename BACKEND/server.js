@@ -15,8 +15,16 @@ connectCloudinary();
 
 //middleware
 app.use(express.json());
-app.use(cors());
-
+app.use(
+  cors({
+    origin: [
+      "https://prescripto-web.vercel.app", // Frontend domain
+      "https://adminprescripto.vercel.app", // Admin panel domain
+    ],
+    methods: "GET,POST,PUT,DELETE",
+    allowedHeaders: "Content-Type, Authorization",
+  })
+);
 //api endpoints
 app.use("/api/admin", adminRouter);
 app.use("/api/doctor", doctorRouter);
