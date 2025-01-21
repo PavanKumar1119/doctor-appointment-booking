@@ -22,7 +22,7 @@ app.use(
       "https://adminprescripto.vercel.app", // Admin panel domain
     ],
     methods: "GET,POST,PUT,DELETE",
-    allowedHeaders: "Content-Type, Authorization",
+    allowedHeaders: "Content-Type, Authorization, token", // Allow the token header
   })
 );
 //api endpoints
