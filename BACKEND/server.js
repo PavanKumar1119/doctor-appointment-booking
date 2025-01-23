@@ -21,10 +21,11 @@ app.use(
       "https://prescripto-web.vercel.app", // Frontend domain
       "https://adminprescripto.vercel.app", // Admin panel domain
     ],
-    methods: "GET,POST,PUT,DELETE",
-    allowedHeaders: "Content-Type, Authorization, token", // Allow the token header
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    allowedHeaders: ["Content-Type", "Authorization", "token", "atoken"], // Include both token types
   })
 );
+
 //api endpoints
 app.use("/api/admin", adminRouter);
 app.use("/api/doctor", doctorRouter);
