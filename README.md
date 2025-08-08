@@ -188,8 +188,3 @@ Before you begin, ensure you have the following installed:
 3.  **Admin Login**: Use the `ADMIN_EMAIL` and `ADMIN_PASSWORD` credentials defined in your backend `.env` file to log into the admin panel. From there, you can add new doctors and manage the system.
 4.  **Patient Registration & Booking**: On the patient application, register a new account to explore the features, book appointments, and manage your profile.
 5.  **Doctor Login**: Doctors can log in to their panel to manage their appointments and profiles.
-
-## ☁️ Deployment
-
-The project is designed for deployment. A dedicated deployment tutorial (not provided in this context) can guide you through the process of deploying this full-stack application online, ensuring it's accessible to a wider audience.
-
