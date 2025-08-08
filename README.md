@@ -193,4 +193,3 @@ Before you begin, ensure you have the following installed:
 
 The project is designed for deployment. A dedicated deployment tutorial (not provided in this context) can guide you through the process of deploying this full-stack application online, ensuring it's accessible to a wider audience.
 
-```
